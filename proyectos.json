@@ -4,13 +4,23 @@
         "nombre": "Análisis de Ventas 2024",
         "tecnologia": "Python & JS",
         "descripcion": "Optimización de ingresos mediante análisis predictivo.",
-        "metrica": 85
+        "metrica": 85,
+        "mes": "Enero"
     },
     {
         "id": 2,
         "nombre": "E-commerce Inmobiliario",
         "tecnologia": "JavaScript",
         "descripcion": "Web de alto rendimiento con carga perezosa de imágenes.",
-        "metrica": 98
+        "metrica": 98,
+        "mes": "Febrero"
+    },
+    {
+        "id": 3,
+        "nombre": "Dashboard Logístico",
+        "tecnologia": "SQL & PowerBI",
+        "descripcion": "Visualización de tiempos de entrega en tiempo real.",
+        "metrica": 75,
+        "mes": "Marzo"
     }
 ]
