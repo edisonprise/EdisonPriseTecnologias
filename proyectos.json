@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "Análisis de Ventas 2024",
+        "tecnologia": "Python & JS",
+        "descripcion": "Optimización de ingresos mediante análisis predictivo.",
+        "metrica": 85
+    },
+    {
+        "id": 2,
+        "nombre": "E-commerce Inmobiliario",
+        "tecnologia": "JavaScript",
+        "descripcion": "Web de alto rendimiento con carga perezosa de imágenes.",
+        "metrica": 98
+    }
+]
