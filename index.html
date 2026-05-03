@@ -33,6 +33,36 @@
         <canvas id="graficaDesempeno"></canvas>
     </section>
 
+    <section id="contacto">
+        <h2>Sugerencias y Contacto</h2>
+        <form id="survey-form" action="https://formspree.io/f/xeqywewj" method="POST">
+            <label id="name-label" for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Tu nombre" required>
+
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Tu email" required>
+
+            <label id="number-label" for="number">Edad (Opcional)</label>
+            <input id="number" type="number" placeholder="Edad" min="7" max="99">
+
+            <p>¿Qué servicio te interesa más?</p>
+            <select id="dropdown" required>
+                <option disabled selected value="">Selecciona una opción</option>
+                <option value="web">Desarrollo Web</option>
+                <option value="data">Análisis de Datos</option>
+            </select>
+
+            <p>¿Recomendarías EdisonPrise?</p>
+            <label><input name="user-recommend" value="si" type="radio" checked> Definitivamente</label>
+            <label><input name="user-recommend" value="tal vez" type="radio"> Tal vez</label>
+
+            <p>Comentarios</p>
+            <textarea id="comments" name="comments" rows="4" placeholder="Escribe aquí..."></textarea>
+
+            <button id="submit" type="submit">Enviar Sugerencia</button>
+        </form>
+    </section>
+
     <script src="script.js"></script>
 </body>
 
